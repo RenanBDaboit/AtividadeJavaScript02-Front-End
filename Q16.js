@@ -1,10 +1,10 @@
 const conta = {
     saldo: 25354,
     titular: "Renan",
-    sacar: function sacar(valor) {
+    sacar: function(valor) {
         this.saldo -= valor;
     },
-    depositar: function depositar(valor) {
+    depositar: function(valor) {
         this.saldo += valor;
     }
 }
